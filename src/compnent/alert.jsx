@@ -60,7 +60,7 @@ const Alert = ({data, numProduct, closeA ,newData, dataCartReception, dataCart})
   }
   return(
     <div className="sticky top-0 z-20 w-full h-dvh flex justify-center items-center bg-black-opacity">
-      <div className="w-3/5  h-4/6 bg-gray-200 flex p-4 relative">
+      <div className="w-4/5  h-5/6 bg-gray-200 flex p-4 relative">
       <div className="absolute top-2 right-2 cursor-pointer text-5xl font-bold" onClick={closeAlert}>⮾</div>
         <div className="h-full w-7/12 py-10 ">
           <div className="flex items-center justify-center h-96 relative ">
